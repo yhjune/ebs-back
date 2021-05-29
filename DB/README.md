@@ -1,4 +1,5 @@
 # DB 구성
+<a href="./create_table.sql">sql문 참고</a>
 
 ## 1. category 테이블
 <img width="586" alt="table_category" src="https://user-images.githubusercontent.com/61778930/120057228-6cdf8e00-c07c-11eb-8261-6127336ba0eb.png">

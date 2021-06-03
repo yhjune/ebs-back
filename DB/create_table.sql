@@ -53,6 +53,13 @@ CREATE TABLE notice_1 (
   primary key(id)
   );
  
+INSERT INTO notice_1 values
+(1, "필독[EBS직업] 평생교육바우처 수강 지원 안내", ""),
+(2, "EBS VOD/AOD 무료 이용 안내", ""),
+(3, "2021년도 EBS 직원 공개채용 공고", ""),
+(4, "'EBS 구독과 함께! 다른 그림 찾기 이벤트' 당첨 안내", ""),
+(5, "'EBS 구독과 함께! 다른 그림 찾기 이벤트' 당첨자 발표 지연 안내", "");
+
 --
 -- notice_2 테이블
 CREATE TABLE notice_2 (
@@ -62,11 +69,25 @@ CREATE TABLE notice_2 (
   primary key(id)
   );
   
+INSERT INTO notice_2 values
+(1, "필독2021년 봄 편성 개편 안내", ""),
+(2, "2021 설 특선영화/애니메이션 안내", ""),
+(3, "[EBS 특집] 프로그램 안내", ""),
+(4, "[다큐프라임] 신규 라인업 안내", ""),
+(5, "2020 추석 특선 프로그램 안내", "");
+
 --
 -- notice_3 테이블
 CREATE TABLE notice_3 (
   id int not null,
-  notice varchar(50),
+  notice varchar(80),
   link varchar(100),
   primary key(id)
   );
+
+INSERT INTO notice_3 values
+(1, "2021년 협찬 프로그램 [성인문해력 교육, 특집(영월장릉과 단종)] 외주제작사 공모", ""),
+(2, "[재공고] 2022~23년도 EBS공인중개사 시험대비강좌 방송 및 온라인 강의용 교재 출판 업체 선정", ""),
+(3, "[재공고] EBS 공사창립 20주년 사사 편찬 사업 대행 용역 입찰공고", ""),
+(4, "계약직원 공개채용 공고", ""),
+(5, "2021년 [특집 및 파일럿(자유주제)] 외주제작사 공모 결과 안내", "");
